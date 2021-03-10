@@ -6,7 +6,6 @@ public class BankAccount extends Exception {
 
     public void deposite(double sum) {
         amount += sum;
-        return;
     }
 
     public double getAmount() {
